@@ -99,7 +99,7 @@ class App extends React.Component {
       <div className="App">
         <div className="Controls">
           <h1>Enter your starting points to get suggested meeting places.</h1>
-          <h2>Note that subway system is idealized and does not reflect time of day</h2>
+          <p>I created this bare-bones React front end to test my routefinding api while attending the Recurse Center, Winter 2019. Note that the representation of the subway system is idealized and does not reflect time of day. Your next train is always just a few minutes away...</p>
           <StationInput
             id="one"
             parentId="one"
